@@ -1,4 +1,4 @@
-# 📄 Exercise:
+# 📄 Exercise
 
 > main will `return 0` (signal code)
 
@@ -9,10 +9,10 @@
 * User tries to Withdraw 50 and output to console
 * User tries to withdraw 100, output to console
 
-## Stretch Goal:
+## Stretch Goal
 * Allow over draft limits of 100
 
-### Challenge Goal:
+## Challenge Goal
 * Ask user what type of transaction they're doing (IE: `desposit` or `withdrawl`)
 * Change hardcoded values to be read from `cin` for both withdraw and deposit steps.
 * Create an exit step for the end user 
