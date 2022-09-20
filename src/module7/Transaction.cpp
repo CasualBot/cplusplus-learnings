@@ -7,10 +7,11 @@ Transaction::Transaction(int amt, string kind) : amount(amt), type(kind) {}
 string Transaction::Report()
 {
     string report;
-    report += '\t';
+    string spacer = "  ";
+    report += spacer;
     report += type;
-    report += '\t'
-    report += to_string(amount);
+    report += spacer;
+    report += "$"+to_string(amount);
 
     return report;
 }
