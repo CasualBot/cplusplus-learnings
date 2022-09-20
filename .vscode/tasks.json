@@ -9,6 +9,12 @@
             "-o",
             "${workspaceFolder}\\builds\\${fileBasenameNoExtension}.exe"
         ],
+        "options": {
+            "cwd": "C:\\msys64\\mingw64\\bin"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ],
     },
     "linux": {
         "type": "shell",
@@ -27,4 +33,5 @@
         "problemMatcher": [
             "$gcc"
         ]
+    }
 }
