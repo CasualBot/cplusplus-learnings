@@ -49,5 +49,8 @@
         "xmemory0": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "Pluralsight's"
+    ]
 }
